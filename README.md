@@ -29,7 +29,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            GPIOMem led = new GPIOMem(GPIOPins.V2_GPIO_12)
+            GPIOMem led = new GPIOMem(GPIOPins.V2_GPIO_12);
             while(true)
             {
                 led.Write(PinState.High);
